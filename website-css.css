@@ -1,0 +1,196 @@
+/*font family used throughout all web pages*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*the div that contains the logo and the title*/
+.header1{
+    float: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 4.5cm;
+}
+/*setting image size*/
+#logo{
+    width: 3.5cm;
+    height: 3.5cm;
+}
+/*div that hold the logo within the main header div*/
+.header1-logo{
+    float: left;
+    max-height: 3.5cm;
+}
+/*dive that contains the company name within the mainheader div*/
+.header-txt{
+    float: right;
+    max-height: 3.5cm;
+}
+/*the actual title name - company name*/
+h1#company{
+    font-size: 50px;
+    display: flex;
+}
+
+
+/*navigation bar div*/
+.navigation{
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+/*the links on the nav bar*/
+.navigation a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+/*register and login button*/
+.navigation a.nav-link-right {
+    font-weight: 600;
+    float: right;
+}
+/*button hover for nav bar*/
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/*mainpage image css*/
+.mainpg-img img{
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+/*home text inside image*/   
+.text-in-image{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-in-image h2{
+    color: white;
+    font-size: 70px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*main page main div*/
+.main-page-content{
+    float: center;
+    width: 100%;
+}
+/*heading div*/
+.main-page-content-heading{
+    padding-top: 0.2cm;
+    float: center;  
+    text-align: center;
+}
+/*heading alignment*/
+.main-page-content-heading h2{
+    text-align: center;
+}
+/*main page text div*/
+.main-page-content-text{
+    float: center;
+    text-align: center;
+    padding-left: 4cm;
+    padding-right: 4cm;
+}
+/*main page text*/
+.main-page-content-text p{
+    text-align: center;
+    padding-bottom: 6cm;
+}
+.main-page-content-text-list p{
+    text-align: center;
+}
+
+/*footer for all pages*/
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+
+
+/*contact page main div*/
+.contact{
+    padding-top: 2cm;
+    float: center;
+}
+/*contact details div*/
+.contact-details{
+    float: center;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-bottom: 1cm;
+    text-align: center;
+}
+
+/*contact form div*/
+.contact-form{
+    float: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+    max-width: 100%;
+    padding-top: 30px;
+}
+/*format for all text input methods in c form*/
+input[type=text], input[type=password], input[type=email],  textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+/*contact form submission*/
+input[type=submit] {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+/*lessons booking form*/
+input[type=date], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/*table format in booking page*/
+table.booking-table{
+    border-style:solid;
+    border-color: black;
+    width: 100%;
+}
+th{
+    padding: 0.5cm;
+    background-color: #d86868;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+td{
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
